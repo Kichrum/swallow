@@ -1,0 +1,84 @@
+body {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.main {
+    width: 795px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+    border: 2px solid #f15f38;
+    background-color: #FFFFFF;
+}
+.roof {
+    height: 279px;
+    background-image: url(images/roof.jpg);
+}
+.roof-ru {
+    height: 279px;
+    background-image: url(images/roof-ru.jpg);
+}
+.spacer {
+    position: absolute;
+    width: 795px;
+    height: 279px;
+}
+.navigation {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -290px;
+    top: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+.desc {
+    float: right;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 65px;
+    right: 70px;
+}
+.desc h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.desc h2{
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.content {
+    font-family: serif;
+    color: #000000;
+    padding: 5px;
+}
+.content h3 {
+    text-align: center;
+}
+.left {
+    width: 430px;
+    padding: 5px;
+    float: left;
+}
+.right {
+    text-align: right;
+    width: 343px;
+    margin: -5px;
+    float: right;
+    color: #000000;
+}
+table, td, th{
+    border: 1px solid #000000;
+}
+th {
+    text-align: center;
+}
